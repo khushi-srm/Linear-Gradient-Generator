@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient Generator</title>
+
+    <link rel="shortcut icon" href="icon1.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="container__left">
+            <h1 class="left__title">
+                Gradient Generator
+            </h1>
+            <div class="left__colors">
+                <input type='color' value='#0000ff' class="color__one colors"></input>
+                <input type='color' value='#800dcc' class="color__two colors"></input>
+            </div>
+            <div class="left__directions">
+                <ul>
+                    <li class='active' data-direction='to top'><i class="ri-arrow-up-line" data-direction='to top'></i>
+                    </li>
+                    <li data-direction='to bottom'><i class="ri-arrow-down-line" data-direction='to bottom'></i></li>
+                    <li data-direction='to left'><i class="ri-arrow-left-line" data-direction='to left'></i></li>
+                    <li data-direction='to right'><i class="ri-arrow-right-line" data-direction='to right'></i></li>
+                    <li data-direction='to top right'><i class="ri-arrow-right-up-line"
+                            data-direction='to top right'></i></li>
+                    <li data-direction='to bottom right'><i class="ri-arrow-right-down-line"
+                            data-direction='to bottom right'></i></li>
+                    <li data-direction='to top left'><i class="ri-arrow-left-up-line" data-direction='to top left'></i>
+                    </li>
+                    <li data-direction='to bottom left'><i class="ri-arrow-left-down-line"
+                            data-direction='to bottom left'></i></li>
+                </ul>
+            </div>
+            <div class="left__code"></div>
+            <button class="copy__code">Copy</button>
+        </aside>
+
+        <div class="container__right" id='preview'></div>
+    </div>
+</body>
+
+</html>
