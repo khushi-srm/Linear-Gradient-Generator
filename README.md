@@ -1,4 +1,5 @@
 A Linear Gradient Generator project using HTML, CSS, and JavaScript is a great beginner-to-intermediate level web development project that helps users visually create CSS linear gradients for backgrounds.
+
 🎯 Key Features -->
 * Color Pickers – for users to select start and end colors.
 
